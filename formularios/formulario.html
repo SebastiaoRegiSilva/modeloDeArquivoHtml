@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="utf-8">
+        <title>Formulários.</title>
+    </head>
+<body>
+    <!--Action é para onde os dados do formulário vão e o method é a forma que ele é enviado.-->
+    <!--Método post é o melhor método para envio de formulário.<form action="" method="post"></form>-->
+    <!--Campos do tipo texto.-->
+    <h5>Formulário simples.</h5>
+    <form method="post" action="recebe.php">
+        Nome: <input type="text" name="nome" placeholder="Informe o seu nome."><p>
+        Email: <input type="text" name="email" placeholder="Informe o seu email."><p>
+        <!--Uso de padrões, patttern (https://www.regexpal.com/), required é utilizado como campo obrigatório.-->
+        CPF: <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" required>
+        Senha: <input type="password" name="senha">
+    </form>
+
+
+</body>
+</html>
