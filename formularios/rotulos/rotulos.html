@@ -43,6 +43,17 @@
                 </datalist>
         </form>
     </section>
+    <section>
+        <h3>Novos campos</h3>
+        <!--O ENCTYPE permite o envio de arquivos.-->
+        <form action="formularios/receber.php" method="post" enctype="multipart/form-data">
+            <!--Passar dados ocultos-->
+            <input type="hidden" name="id" value="123">
+
+            <!--Envio de arquivos-->
+            <input type="file" name="arquivos">
+        </form>
+    </section>
     <footer></footer>        
 </body>
 </html>
