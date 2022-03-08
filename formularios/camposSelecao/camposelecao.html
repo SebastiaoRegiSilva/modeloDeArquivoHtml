@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="utf-8">
+        <title>Campos de seleção..</title>
+    </head>
+<body>
+    <!--Comentários em HTML-->    
+    <header><h2>Curso de HTML IFRS</h2></header>
+    <nav></nav>
+    <section><h3>Check box.</h3>
+        <form action="formulario.php" method="post">
+            Quais dos cursos que vocês fará?<br>
+            <input type="checkbox" name="html" value="1">HTML<br>
+            <input type="checkbox" name="css" value="1">CSS<br>
+            <input type="checkbox" name="javascript" value="1" checked>JavaScript<br>
+        </form>
+    </section>
+    <section><h3>Radio.</h3>
+        <form action="formulario.php" method="post">
+            Qual dos cursos que vocês fará?<br>
+            <input type="radio" name="curso" value="html">HTML<br>
+            <input type="radio" name="curso" value="css">CSS<br>
+            <input type="radio" name="curso" value="javascript">JavaScript<br>
+        </form>
+    </section>
+    <section><h3>Select.</h3>
+        <form action="formulario.php" method="post">
+            Qual dos cursos que vocês fará?<br>
+            <select name="curso">
+                <option value="hmtl">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+        </form>
+    </section>
+    <footer></footer>        
+</body>
+</html>
