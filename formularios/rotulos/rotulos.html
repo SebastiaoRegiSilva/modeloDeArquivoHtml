@@ -21,9 +21,26 @@
             <fieldset>
                 <legend>Dados pessoais:</legend>
                 Nome:<input type="text"><br>
-                Email:<input type="text"><br>
-                Nascimento:<input type="text">
+                <!--O tipo email jaz faz a verificar do tipo no input-->
+                Email:<input type="email"><br>
+                <!-- O tipo date trás o calendário consigo.-->
+                Nascimento:<input type="date" name="data">
+                <!--Escala para escolha-->
+                Satisfação: <input type="range" name="faixa">
+                <!--Cor para escolha-->
+                Cor: <input type="color" name="cor">
             </fieldset>
+        </form>
+    </section>
+    <section>
+        <h3>Listas</h3>
+        <form action="formularios/receber.php">
+            <input list="cursos" name="curso">
+                <datalist id="cursos">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="JavaScript">
+                </datalist>
         </form>
     </section>
     <footer></footer>        
