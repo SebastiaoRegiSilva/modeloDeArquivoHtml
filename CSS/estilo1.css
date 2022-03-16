@@ -1,0 +1,11 @@
+body{
+    font-weight: bold;    
+}
+/* Para criar identificador eu uso o sustenido(#), ele só pode ser usado uma vez na página.*/
+#id1{
+    font-size: 24px;
+}
+/* Para criar classe eu uso o ponto(.), pode ser utilizado por várias vezes.*/
+.class1{
+    font-size: 12px;
+}
